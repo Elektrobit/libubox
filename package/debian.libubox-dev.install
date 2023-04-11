@@ -1,0 +1,5 @@
+usr/include/*
+usr/lib/*.a
+usr/lib/libubox.so
+usr/lib/libjson_script.so
+usr/lib/libblobmsg_json.so
