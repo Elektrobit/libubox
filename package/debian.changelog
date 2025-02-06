@@ -1,0 +1,12 @@
+libubox (20230411) unstable; urgency=medium
+
+  * Update upstream (see upstream log)
+
+ -- Elektrobit <info@elektrobit.de>  Thu, 11 Apr 2023 08:00:00 +0200
+
+
+libubox (20220515) unstable; urgency=medium
+
+  * Initial package
+
+ -- Elektrobit <info@elektrobit.de>  Sun, 15 May 2022 13:42:56 +0200
