@@ -2,23 +2,29 @@ Source: libubox
 Maintainer: Elektrobit <info@elektrobit.de>
 Build-Depends: cmake, debhelper (>= 9), libjson-c-dev, pkg-config
 Standards-Version: 4.5.0
+Priority: optional
+Section: libs
 
 Package: libubox1
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A library used by many OpenWrt projects
 
 Package: libblobmsg-json1
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A library used by many OpenWrt projects
 
 Package: libjson-script1
 Architecture: any
+Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A library used by many OpenWrt projects
 
 Package: libubox-dev
 Architecture: any
+Section: libdevel
 Depends: ${misc:Depends}, libubox1 (= ${binary:Version}), libblobmsg-json1 (= ${binary:Version}), libjson-script1 (= ${binary:Version})
 Description: A library used by many OpenWrt projects
