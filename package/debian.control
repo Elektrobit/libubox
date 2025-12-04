@@ -4,6 +4,7 @@ Build-Depends: cmake, debhelper (>= 9), libjson-c-dev, pkg-config
 Standards-Version: 4.5.0
 Priority: optional
 Section: libs
+Rules-Requires-Root: no
 
 Package: libubox1
 Architecture: any
